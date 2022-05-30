@@ -22,7 +22,8 @@ fi
 
 
 echo "Starting Your Bot... 👾👾"
-install.sh | bash
+
+bash install.sh
 python3 frontal.py &
 python3 -m tobrot
 
