@@ -11,3 +11,4 @@ ffmpeg
 python3-pip
 p7zip-full
 p7zip-rar
+rclone
