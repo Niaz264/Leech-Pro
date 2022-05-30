@@ -18,6 +18,7 @@ if [[ -n $CONFIG_ENV_URL ]]; then
 	wget -q $CONFIG_ENV_URL -O /app/config.env
 fi
 
+curl https://rclone.org/install.sh | bash
 
 
 echo "Starting Your Bot... 👾👾"
